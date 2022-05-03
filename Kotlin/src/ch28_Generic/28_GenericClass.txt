@@ -1,0 +1,7 @@
+// 제네릭: Cup<T>를 Cup of T로 발음하여 형식 매개 변수인 T에 따른 Cup 클래스의 개체 생성
+
+Cup<Orange> => 오렌지 쥬스
+Cup<Coffee> => 커피
+Cup<Coke> => 콜라
+
+클래스(=Cup)에 담긴 매개변수(Orange, Coffee, Coke..)에 따라서 각각 다른 개체가 생성된다.
